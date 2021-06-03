@@ -1,0 +1,41 @@
+a:visited {
+	color: blue;
+}
+
+h2 {
+	color:darkred;
+	font-weight: normal;
+	text-align: center;
+	font-family: arial;
+}
+
+h1 {
+	color: seagreen;
+	font-size: 36;
+	font-weight: normal;
+	text-align: center;
+	font-family: arial;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #999;
+}
+
+li {
+	float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+	background: white;
+}
+
