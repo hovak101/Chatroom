@@ -10,7 +10,7 @@
 <body>
 	<header id="top"> 
 		<img src="https://cdn.dribbble.com/users/4930498/screenshots/10585845/chatroom.jpg" width="200" height="100" title="logo">
-		<span>Your Username Log Off<span>
+		<span> Your Username: <input id="your_username"> </span>
 	</header>
 
 	<section>
@@ -36,15 +36,18 @@
 
 	<section>
 		<article>
-			Enter Username:
+			Enter Receiver's Username:
 		</article>
+		<input id="their_username" type="test">
 		<article>
-			Output Stream:
+			Enter Message:
 		</article>
+		<input id="sent_messages" type="test">
+		<article>
+			Messages they sent you: 
+		</article>
+		<p id="received_messages"></p>
 	</section>
-
-	<!-- the following is an image -->
-	<img src="https://www.sketchappsources.com/resources/source-image/facebook-like-chatbox-kristapselsins.png" width="800" height="600" class="center"> 
 
 	<footer id="bottom" title="bottom of page">
 		<article>AH Copyright &copy; 2021</article>
@@ -52,5 +55,8 @@
 			<a href=contactus.html>Contact Us<a>
 		</article>
 	</footer>
+	<script src="../libraries/FileSaver.js"></script>
+	<script src="../js/ajax-util.js"></script>
+	<script src="../js/chatFunctionality.js"></script>
 </body>
 </html>
