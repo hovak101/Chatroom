@@ -1,14 +1,4 @@
-// function checkUsername() {
-// 	if ()
-// 	document.getElementById("content").innerHTML = 
-// 	document.getElementById("username").value;
-// }
-
-function createConvoFile(A, B) {
-	var blob = new Blob([A, B], {type: 'text/plain'}); 
-	console.log(blob); 
-}
-
-createConvoFile("alex", "robert"); 
-// document.getElementById("username")
-// 	.addEventListener("change", getUsername);  
+document.getElementById("sent_messages").addEventListener("change", function dosom () {
+	var info = document.getElementById("sent_messages").value; 
+	document.getElementById("received_messages").innerHTML = info;
+});
